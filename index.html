@@ -1,0 +1,155 @@
+<!-- FILE: analys.html -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analys — Portfolio</title>
+  <meta name="description" content="Portfolio minimalis — [Nama Anda] — Data Analyst">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">Hawa</h1>
+        <p class="role">Data Analyst</p>
+      </div>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <a href="#summary">Summary</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SUMMARY / HERO -->
+    <section id="summary" class="hero">
+      <div class="hero-col">
+        <h2 class="hello">Hello,I'm<span class="accent"> Hawa Awalya Ghufron</span></h2>
+        <p class="lead">As a data enthusiast focused on analyst, I always start with business questions: what decisions need to be made? <br>
+          I transform raw data into actionable insights and organize them into easy-to-understand visual narratives.<br> 
+            The goal to help teams make real decisions, not just create dashboards and display numbers. </p><br>
+          <!-- Ganti URL LinkedIn & email sebelum deploy -->
+          <a class="btn" href="https://www.linkedin.com/in/hawa-awalya-ghufron-2a6588321/" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </section>
+
+   
+
+<!-- DASHBOARD VIEW -->
+<section id="dashboard" class="dashboard">
+  <h3>Dashboard view</h3>
+  
+  <div class="dashboard-gallery">
+    <img src="./dasboard1.jpeg" alt="Dashboard 1">
+    <img src="./dasboard2.jpeg" alt="Dashboard 2">
+    <img src="./dasboard3.jpeg" alt="Dashboard 3">
+  </div>
+</section>
+
+
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h3>Selected projects</h3>
+  <ul class="project-list">
+    <li class="project-item">
+      <img src="./retailsales.jpeg" alt="Sales Online Retail illustration" class="project-img">
+      <div>
+        <h4>Sales Online Retail</h4>
+        <p>Analyzing e-commerce transaction data to identify high-value customers, top products, and seasonal patterns, 
+            then turning it into strategic recommendations through an actionable, business storytelling-based Power BI dashboard.</p>
+        <a class="more" href="https://github.com/hawaawalya/Retail-Sales-Analysis-and-Customer-Segmentation" target="_blank" rel="noopener">More →</a>
+      </div>
+    </li>
+    <li class="project-item">
+      <img src="./aianalisis.jpeg" alt="AI Usage in Students illustration" class="project-img">
+      <div>
+        <h4>Analysis of AI Usage in Students</h4>
+        <p>This project analyzes patterns of AI Assistant usage by students through data-based behavioral segmentation 
+        to identify factors that influence learning effectiveness and user satisfaction.</p>
+        <a class="more" href="https://github.com/hawaawalya/Ai-Usage-Analysis/blob/main/README.md" target="_blank" rel="noopener">More →</a>
+      </div>
+    </li>
+    <li class="project-item">
+      <img src="./projecthalocamp.jpeg" alt="Product Sales Trend illustration" class="project-img">
+      <div>
+        <h4>Product Sales Trend Analysis</h4>
+        <p>This project uncovers retail sales trends by transforming raw data into business insights.
+         The goal is to help store managers identify the right products to promote, understand customer behavior,
+          and spot growth opportunities.</p>
+        <a class="more" href="https://github.com/hawaawalya/Product-Sales-Trend-Analysis" target="_blank" rel="noopener">More →</a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h3>Skills & Tools</h3>
+
+  <div class="skill-card">
+    <h4>SQL</h4>
+    <p>I use SQL to retrieve, clean, and process transactional data, making it easier to analyze and report.</p>
+    <ul class="sub-skill">
+      <li>Joins & Aggregations</li>
+      <li>Data Filtering</li>
+      <li>Reporting Queries</li>
+    </ul>
+  </div>
+
+<div class="skill-card">
+    <h4>Power BI</h4>
+    <p>I design and deploy enterprise-grade dashboards using DAX, data modeling, and dynamic visuals to enable real-time business intelligence across departments.</p>
+    <ul class="sub-skill">
+      <li>DAX Formula Development </li>
+      <li>Star Schema Modeling & Relationship Management</li>
+      <li>Dynamic Filtering, KPI Tracking</li>
+    </ul>
+  </div>
+
+<div class="skill-card">
+    <h4>Data Storytelling</h4>
+    <p>I transform complex datasets into compelling narratives that drive informed decisions, making insights accessible and actionable for non-technical audiences.</p>
+    <ul class="sub-skill">
+      <li>Turning Numbers into Meaningful Stories</li>
+      <li>Visualizing Insights for Impact</li>
+      <li>Aligning Data Narratives with Business Goals</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h3>Contact</h3>
+  <div class="contact-box">
+    <p><strong>Email: </strong> hawawalya@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hawa-awalya-ghufron-2a6588321/" target="_blank" rel="noopener">linkedin.com/in/walya</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/hawaawalya" target="_blank" rel="noopener">github.com/walya</a></p>
+  </div>
+</section>
+
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const id = a.getAttribute('href');
+        if (document.querySelector(id)) {
+          document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+<!-- END FILE: analys.html -->
+
+
+
